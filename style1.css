@@ -211,7 +211,8 @@ background: linear-gradient(180deg, rgba(144,174,167,1) 0%, rgba(15,18,18,1) 80%
     display: flex;
      flex-direction:column;
      background: rgb(78,110,110);
-background: linear-gradient(180deg, rgba(78,110,110,1) 13%, rgba(118,138,152,1) 45%, rgba(69,54,54,1) 85%);
+background: linear-gradient(180deg, rgba(78,110,110,1) 13%,
+ rgba(118,138,152,1) 45%, rgba(69,54,54,1) 85%);
     /* align-items: center; */
 }
 .div{
@@ -235,7 +236,7 @@ background: linear-gradient(180deg, rgba(78,110,110,1) 13%, rgba(118,138,152,1) 
 }
 .rightson2{
     padding-top: 2vh;
-    height: 50vh;
+    height: 40vh;
     width: 100vw;
     background-color: black;
     /* border: 1px solid red; */
@@ -263,6 +264,17 @@ background: linear-gradient(180deg, rgba(78,110,110,1) 13%, rgba(118,138,152,1) 
 .listplay{
     padding-left :1vh;
     border: 0.5vh solid rgb(102, 119, 153)
+}
+.list2{
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 0.5vw;
+
 }
 
 

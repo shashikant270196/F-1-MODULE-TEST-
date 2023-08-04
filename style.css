@@ -1,0 +1,254 @@
+::-webkit-scrollbar{
+    display:none
+}
+*{
+    margin:0px;
+    padding: 0px;
+    font-family:  sans-serif;
+}
+.spotify{
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction:row;
+}
+.left{
+    width: 25vw;
+    height: 86.50vh;
+    background-color: black;
+}
+*{
+ 
+    color: white;
+    font-weight: 700;
+}
+.header-wrapper{
+    width: 25vw;
+}
+.header{
+    padding-left: 15px;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    width: 10vw;
+}
+.logo{
+    width: 80vw;
+    padding: 25px;
+    width: 15vw;
+}
+.header1{
+    display:flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom:15px;
+    justify-content: space-evenly;
+    gap:20px;
+}
+.header1-img{
+    padding-bottom: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    gap: 25px;
+
+}
+.sidebar-wrapper{
+    width: 25vw;
+
+}
+.sidebar1{
+    display:flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom:15px;
+    justify-content: space-evenly;
+    gap:20px;
+}
+.sidebar1-img{
+    padding-bottom: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    gap: 25px;
+    padding-left: 20px;
+
+}
+.plus{
+    background-color: white;
+    width: 38px;
+    height: 38px;
+}
+.your{
+    background-color: green;
+    width: 38px;
+    height: 38px;
+    border-radius: 1px;
+}
+.sidebar2{
+    padding-top: 10px;
+    padding-left: 30px;
+    display:flex;
+    flex-direction: column;
+}
+.sb2{
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+}
+.install{
+    padding-left: 40px;
+
+}
+.install-img{
+    gap: 25px; 
+}
+.right{
+  
+    overflow-y: hidden;
+    width: 75vw;
+    height: 86.50vh;
+    background-color: rgb(32,32,32);
+}
+.topbox{
+    height: 5vh;
+    padding-top: 1.5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.good{
+    height: 2vh;
+    padding-top: 6vh;
+    padding-left: 2vw;
+    font-size: 2vw;
+    padding-bottom: 3vh;
+}
+.shows{
+    padding-top: 1.5vh;
+    padding-bottom: 2vh;
+}
+.liked{
+    width: 75vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.liked1{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    padding-top: 1vh;
+    /* padding-left: 1vw; */
+    /* margin-left: 200px; */
+}
+/* .spotify>right>liked>liked1>img{
+    width:1.5vw;
+    height: 5vh;
+
+    } */
+.div1{
+    /* width:5vw;
+    height: 5vh; */
+    margin-left: 20px;
+}
+.shows{
+    padding-left: 2.5vw;
+    padding-right: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5vw;
+}
+.text2{
+    opacity: 0.2;
+    font-size: 1vw;
+}
+.cards1{
+    padding-left: 2vw;
+    padding-right: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(32,32,32);
+}
+.cards2{
+    padding-left: 2vw;
+    padding-right: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card{
+     
+        /* flex: 1 1 200px; */
+        margin: 10px;
+        background-color: #282828;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+
+}
+.card-body{
+    background-color: rgb(24,24,24);
+    border: none;
+}
+.card-img-top{
+    background-color: rgb(24,24,24);
+    border: none;
+    padding:1.5vw;
+}
+.card-text-1{
+    /* background-color: rgb(32,32,32); */
+    font-size: 1.25vw;
+}
+.card-text-2{
+    font-size: 0.8vw;
+    color: rgb(179, 179, 179);
+}
+.bottom{
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+}
+.bottom>img{
+    width: 100%;
+}
+.bottom2{
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+}
+.bottom2>img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
